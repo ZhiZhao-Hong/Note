@@ -1,5 +1,4 @@
-# redis部署
+# redis的笔记 - linux版本
 
-## 测试
-
-看两个例子
+## redis的部署
+先找到linux的redis包，百度redis进入到官网，截取链接。
