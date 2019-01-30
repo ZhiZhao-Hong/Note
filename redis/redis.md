@@ -1,2 +1,2 @@
-# <center>redis部署</center>
+# redis部署
 ## 部署reids
