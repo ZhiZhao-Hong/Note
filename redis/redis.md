@@ -19,5 +19,15 @@
 # make
 ```
 
-redis目录下有四个可以执行的文件
-1. 测试
+redis/src目录下有四个可以执行的文件
+1. redis-server : 启动服务
+2. redis-bencmark
+3. redis-cli ： 
+4. redis.conf
+
+启动服务，然后插入队列
+```
+# cd src
+# ./redis-server
+# ./redis-cli
+```
