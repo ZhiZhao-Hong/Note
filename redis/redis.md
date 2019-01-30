@@ -10,4 +10,14 @@
 # cd /
 # cd etc
 # wget http://download.redis.io/releases/redis-5.0.3.tar.gz
+# tar zxvf redis-5.0.3.tar.gz
 ```
+
+编译
+```
+# cd redis-5.0.3
+# make
+```
+
+redis目录下有四个可以执行的文件
+1. 测试
