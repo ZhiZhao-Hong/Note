@@ -6,7 +6,8 @@
 ![获取下载链接](https://github.com/ZhiZhao-Hong/Note/blob/master/redis/img/1.png)
 
 下载并解压数据包
-
-`cd /`
-`cd etc`
-`wget http://download.redis.io/releases/redis-5.0.3.tar.gz`
+```
+cd /
+cd etc
+wget http://download.redis.io/releases/redis-5.0.3.tar.gz
+```
