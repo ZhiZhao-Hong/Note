@@ -6,4 +6,5 @@
 ```https://help.aliyun.com/document_detail/32196.html?spm=a2c4g.11186623.6.1315.7da55d265qMB1B```
 
 2. 寻找对应的数据包
-![获取下载链接]()
+
+![获取下载链接](https://github.com/ZhiZhao-Hong/Note/blob/master/ossfs/img/ossfs%E4%B8%8B%E8%BD%BD.png)
