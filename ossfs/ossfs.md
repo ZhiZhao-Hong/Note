@@ -22,6 +22,7 @@
 ```chmod 640 /etc/passwd-ossfs```
 
 <br>
+
 将```my_bucket```这个bucket挂载到 ```/tmp/ossfs``` 目录下， AccessKeyIds是```faint```,
 AccessKeySecret是```123```
 
