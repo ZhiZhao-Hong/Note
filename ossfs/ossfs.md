@@ -34,3 +34,4 @@ AccessKeySecret是```123```
 
 ---
 **如果需要同时挂载两个相同的文件，可以修改/etc/passwd-ossfs**
+**重复服务器需要重新挂载ossfs**
