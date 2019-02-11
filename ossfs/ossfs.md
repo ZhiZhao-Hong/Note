@@ -28,4 +28,9 @@ AccessKeySecret是```123```
 
 ```ossfs my-bucket /tmp/ossfs -ourl=http://oss-cn-hangzhou.aliyuncs.com```
 
+**5. 卸载bucket**
+
+```fusermount -u /tmp/ossfs ```
+
+---
 **如果需要同时挂载两个相同的文件，可以修改/etc/passwd-ossfs**
