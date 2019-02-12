@@ -23,4 +23,38 @@
 
 ### 7. 对外开放防火墙
 
+a. 查看已打开的端口
+
+```netstat -anp```
+
+b. 查看想开的端口是否已开
+
+```firewall-cmd --query-port=666/tcp```
+
+若提示 FirewallD is not running。 表示为不可知防火墙，需看防火墙是否开启
+
+c. 查看防火墙状态 - running：表示开启，dead表示未开启
+
+```systemctl status firewalld```
+
+d. 开启防火墙
+
+```systemctl start firewalld```
+
+e. 查看想开的端口是否已开
+
+```firewall-cmd --query-port=666/tcp```
+
+f. 开永久端口号
+
+```firewall-cmd --add-port=666/tcp --permanent```
+
+i. 重新载入配置
+
+```firewall-cmd --reload```
+
+j. 移除端口号 - 记得重启
+
+```firewall-cmd --permanent --remove-port=666/tcp```
+
 ## Python 操作rabbitmq-server
