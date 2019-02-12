@@ -31,3 +31,5 @@ redis/src目录下有四个可以执行的文件
 # ./redis-server
 # ./redis-cli
 ```
+
+可以通过set或者get发送数据
