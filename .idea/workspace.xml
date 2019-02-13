@@ -26,9 +26,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rabbitmq/rabbitmq.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="568">
-                <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="665">
+                <caret line="103" column="27" lean-forward="true" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
               </first_editor>
               <second_editor />
             </state>
@@ -76,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
@@ -216,15 +216,16 @@
       <workItem from="1549885258586" duration="5817000" />
       <workItem from="1549933861019" duration="616000" />
       <workItem from="1549937073664" duration="10828000" />
-      <workItem from="1549978938299" duration="643000" />
+      <workItem from="1549978938299" duration="2822000" />
+      <workItem from="1550068365349" duration="1048000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19003000" />
+    <option name="totallyTimeSpent" value="22230000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="974" height="1047" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.3181818" />
@@ -299,6 +300,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rabbitmq/direct/producter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq/demo/consumer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
@@ -309,18 +317,11 @@
     <entry file="file://$PROJECT_DIR$/rabbitmq/direct/consumer.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/rabbitmq/direct/producter.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rabbitmq/rabbitmq.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="568">
-            <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="665">
+            <caret line="103" column="27" lean-forward="true" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
           </first_editor>
           <second_editor />
         </state>
