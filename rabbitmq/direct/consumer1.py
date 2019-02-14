@@ -4,11 +4,10 @@
 # @Author   :zhong
 # @Software :PyCharm
 import pika
-import time
 
 
 credentials = pika.PlainCredentials('admin', 'admin')
-connection = pika.BlockingConnection(pika.ConnectionParameters('192.168.19.128', 5672, '/', credentials))
+connection = pika.BlockingConnection(pika.ConnectionParameters('192.168.101.172', 5672, '/', credentials))
 
 channel = connection.channel()
 channel.exchange_declare(exchange='direct_test', exchange_type='direct')
@@ -18,7 +17,6 @@ channel.queue_bind(exchange='direct_test', queue='task', routing_key='.3oxz')
 
 
 def callback(ch, method, properties, body):
-    time.sleep(2)
     print(body)
     ch.basic_ack(delivery_tag=method.delivery_tag)
 

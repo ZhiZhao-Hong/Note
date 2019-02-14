@@ -65,7 +65,14 @@ metadata_expire=300
 
 ```rabbitmq-server start```
 
-### 9. 对外开放防火墙
+### 9. 停止服务
+```rabbitmqctl stop```
+
+
+
+
+
+### 10. 对外开放防火墙
 
 #### a. 查看已打开的端口
 

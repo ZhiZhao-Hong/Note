@@ -32,4 +32,12 @@ redis/src目录下有四个可以执行的文件
 # ./redis-cli
 ```
 
-可以通过set或者get发送数据
+setnx = set if not exists
+只在键key不存在的情况下，将键key的值设置为value
+若键key存在，则setnx命令不做任何操作
+命令在设置成功时返回1， 设置失败返回0
+
+getset key value
+将给定key的值设为value，并返回key的旧值。当key存在但不是字符串类型时候，返回一个错误。
+
+## python 操作redis分布式锁

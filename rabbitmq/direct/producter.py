@@ -4,16 +4,20 @@
 # @Author   :zhong
 # @Software :PyCharm
 import pika
+import time
 
 
 credentials = pika.PlainCredentials('admin', 'admin')
-connection = pika.BlockingConnection(pika.ConnectionParameters('192.168.101.172', 5672, '/', credentials))
+connection = pika.BlockingConnection(pika.ConnectionParameters('192.168.19.128', 5672, '/', credentials))
 channel = connection.channel()
-channel.queue_declare(queue='task', durable=True)
-channel.basic_publish(
-    exchange='',
-    routing_key='task',
-    body='test',
-    properties=pika.BasicProperties(delivery_mode=2)
-)
+channel.exchange_declare(exchange='direct_test', exchange_type='direct')
+
+for i in range(0, 60):
+    channel.basic_publish(
+        exchange='direct_test',
+        routing_key='.3oxz',
+        body=str(i),
+        properties=pika.BasicProperties(delivery_mode=2)
+    )
+    time.sleep(1)
 connection.close()
